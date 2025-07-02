@@ -1,0 +1,36 @@
+.hangman-drawing-container {
+    position: relative;
+
+    .line {
+        background: black;
+
+        &.vertical {
+            width: 10px;
+        }
+
+        &.horizontal {
+            height: 10px;
+        }
+
+        &.first {
+            width: 200px;
+            margin-left: 120px;
+        }
+
+        &.second {
+            height: 400px;
+            margin-left: 120px;
+        }
+
+        &.third {
+            width: 250px;
+        }
+
+        &.fourth {
+            height: 50px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}
